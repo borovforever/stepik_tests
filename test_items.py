@@ -14,4 +14,4 @@ def test_check_basket_button_exists(browser):
             return False
 
     assert is_element_present(browser) == True, \
-        f"Tes failed! No {basket_btn_xpath} button on the page"
+        f"Test has failed! No {basket_btn_xpath} button on the page"
