@@ -2,6 +2,10 @@ To run the test in chrome type in terminal:
 
 pytest --browser_name=chrome --language=en test_items.py
 
+or just:
+
+pytest --language=en test_items.py 
+
 To change languages use:
  - en
  - ru
