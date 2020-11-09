@@ -6,7 +6,7 @@ or just:
 
 pytest --language=en test_items.py 
 
-To change languages use:
+To change language use:
  - en
  - ru
  - es
