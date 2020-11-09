@@ -1,3 +1,5 @@
+import time
+
 link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
 
 
@@ -9,3 +11,4 @@ def test_basket_btn(browser):
     else:
         assert False, \
             f"Test {basket_btn} failed! No 'add to basket' button on the page"
+
